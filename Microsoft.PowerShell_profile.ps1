@@ -208,7 +208,7 @@ function docs { Set-Location -Path $HOME\Documents }
 function dtop { Set-Location -Path $HOME\Desktop }
 
 # Quick Access to Editing the Profile
-function ep { vim $PROFILE }
+function ep { nano $PROFILE }
 
 # Simplified Process Management
 function k9 { Stop-Process -Name $args[0] }
